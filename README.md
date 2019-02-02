@@ -24,11 +24,11 @@ Users can edit a picture with a predefined list of data range input each matchin
 - Upload an image or add a link of an image
 - Export the modified image
 
-### Tech
+## Tech
 
 Photo-filter is configured on Docker using NodeJS with expressJS and a MongoDB for the database:
 
-## Built With
+### Built With
 
 * [Docker](https://www.docker.com/) - operating-system-level virtualization
 
@@ -112,7 +112,7 @@ docker exec -i -t node_c bash
 ```
 
 
-  - [x] Now you should access the app in localhost:8080
+  - [x] Now you should access the app in [here](http://localhost:8080)
 
 License
 
