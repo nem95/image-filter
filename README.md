@@ -28,12 +28,18 @@ Users can edit a picture with a predefined list of data range input each matchin
 
 Photo-filter is configured on Docker using NodeJS with expressJS and a MongoDB for the database:
 
+## Built With
 
-* [Docker] - operating-system-level virtualization
+* [Docker](https://www.docker.com/) - operating-system-level virtualization
 
-* [NodeJs/expressJS] - expressJS is a web framework for nodeJS
+*  [Node](https://nodejs.org/) - Javascript server-side
 
-* [MongoDB] - open source noSql database to simply store image path or generated base64
+*  [ExpressJS](https://expressjs.com/) - Javascript framework for creating Node application
+
+*  [EJS](https://ejs.co/) - Javascript template engine
+
+*  [MongoDB](https://www.mongodb.com/) - Open source noSql database to simply store image path or generated base64
+
 
 
 Of course Photo-filter itself is open source with a [public repository](https://github.com/nem95/image-filter)
@@ -107,23 +113,6 @@ docker exec -i -t node_c bash
 
 
   - [x] Now you should access the app [here](localhost:8080)
-
-
-## Built With
-
-
-
-###  - Backend
-
-*  [Node](https://nodejs.org/) - Javascript server-side
-
-*  [ExpressJS](https://expressjs.com/) - Javascript framework for creating Node application
-
-*  [EJS](https://ejs.co/) - Javascript template engine
-
-*  [MongoDB](https://www.mongodb.com/) - Database
-
-
 
 License
 
