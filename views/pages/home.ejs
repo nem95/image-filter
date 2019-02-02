@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: Helvetica;
+      color: #2c3e50;
+    }
+
+    .wrapper {
+      display: table;
+      width: 100%;
+    }
+    .wrapper-content {
+      display: table-cell;
+      width: 50%;
+      vertical-align: top;
+    }
+    .filter, .transformation {
+      display: table;
+      width: 100%;
+    }
+    label {
+      display: table-cell;
+      width: 20%;
+      padding-right: 10px;
+      text-align: right;
+      line-height: 28px;
+    }
+    input {
+      vertical-align: middle;
+      display: table-cell;
+      width: 80%;
+    }
+    img {
+      max-height: 620px;
+      max-width: 620px;
+    }
+</style>
+</head>
+<body>
+    <h1>Use filter on your image !</h1>
+    <div class="wrapper">
+        <div class="wrapper-content">
+            <div class="filter">
+                <label>Blur:</label>
+                <input type="range" id="blur" value="0" min="0" max="4" step="0.01" />
+            </div>
+            <div class="filter">
+                <label>Brightness:</label>
+                <input type="range" id="brightness" value="1" min="0" max="1" step="0.01" />
+            </div>
+            <div class="filter">
+                <label>Saturate:</label>
+                <input type="range" id="saturate" value="100" min="0" max="200" />
+            </div>
+            <div class="filter">
+                <label>Hue:</label>
+                <input type="range" id="hue-rotate" value="0" min="0" max="360" />
+            </div>
+            <div class="filter">
+                <label>Contrast:</label>
+                <input type="range" id="contrast" value="100" min="0" max="200" />
+            </div>
+            <div class="filter">
+                <label>Invert:</label>
+                <input type="range" id="invert" value="0" min="0" max="100" />
+            </div>
+            <div class="filter">
+                <label>Grayscale:</label>
+                <input type="range" id="grayscale" value="0" min="0" max="100" />
+            </div>
+            <div class="filter">
+                <label>Sepia:</label>
+                <input type="range" id="sepia" value="0" min="0" max="100" />
+            </div>
+            <br />
+            <div class="transformation">
+                <label>Rotate:</label>
+                <input type="range" id="rotate" value="0" min="-360" max="360" />
+            </div>
+            <div class="transformation">
+                <label>Scale (x):</label>
+                <input type="range" id="scale-x" value="1" min="-4" max="4" step="0.1" />
+            </div>
+            <div class="transformation">
+                <label>Scale (y):</label>
+                <input type="range" id="scale-y" value="1" min="-4" max="4" step="0.1" />
+            </div>
+            <div class="transformation">
+                <label>Translate (x):</label>
+                <input type="range" id="translate-x" value="0" min="-80" max="80" />
+            </div>
+            <div class="transformation">
+                <label>Translate (y):</label>
+                <input type="range" id="translate-y" value="0" min="-80" max="80" />
+            </div>
+            <div class="transformation">
+                <label>Skew:</label>
+                <input type="range" id="skew" value="0" min="-360" max="360" />
+            </div>
+        </div>
+        <div class="wrapper-content">
+            <img src="http://patricktayloredwards.com/images/background.8fcc83c6.jpg" />
+        </div>
+    </div>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  <script src="/js/filter.js"></script>
+</body>
+</html>
