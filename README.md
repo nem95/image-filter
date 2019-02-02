@@ -112,7 +112,7 @@ docker exec -i -t node_c bash
 ```
 
 
-  - [x] Now you should access the app [here](localhost:8080)
+  - [x] Now you should access the app in localhost:8080
 
 License
 
