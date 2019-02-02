@@ -18,16 +18,13 @@ Users can edit a picture with a predefined list of data range input each matchin
 
 
 - Edit image characteristics
--
+
 ### Future fonctionallities
+
 - Upload an image or add a link of an image
 - Export the modified image
 
-
-
 ### Tech
-
-
 
 Photo-filter is configured on Docker using NodeJS with expressJS and a MongoDB for the database:
 
@@ -43,13 +40,10 @@ Of course Photo-filter itself is open source with a [public repository](https://
 
 on GitHub.
 
-
-
 ## Development Installation
 
 
 ### Getting Started
-
 
 
 - [x] Clone the repo
