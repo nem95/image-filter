@@ -30,7 +30,7 @@ Photo-filter is configured on Docker using NodeJS with expressJS and a MongoDB f
 
 ### Built With
 
-* [Docker](https://www.docker.com/) - operating-system-level virtualization
+*  [Docker](https://www.docker.com/) - operating-system-level virtualization
 
 *  [Node](https://nodejs.org/) - Javascript server-side
 
@@ -55,6 +55,8 @@ Of course Photo-filter itself is open source with a [public repository](https://
 ```sh
 
 git clone git@github.com:nem95/image-filter.git
+
+cd image-filter
 
 ```
 - [x] Download docker [(here)](https://docs.docker.com/) and install it.
